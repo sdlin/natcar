@@ -93,8 +93,8 @@ plot((S4(a5:b5)-S5(a5:b5)),dist(a5:b5))
 a6 = 28;
 b6 = 54;
 figure; subplot(3,1,1);
-plot(dist,SL,'.',dist,SR,'.');
-figure; subplot(3,1,2);
+plot(N,SL,'.',N,SR,'.');
+subplot(3,1,2);
 plot(SL-SR);
 subplot(3,1,3);
 plot((SL(a6:b6)-SR(a6:b6)),dist(a6:b6))
